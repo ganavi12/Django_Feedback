@@ -23,6 +23,9 @@ class ReviewForm(forms.ModelForm):
             "username": {
                 "max_length": "please enter shorter name",
                 "required": "ypur name must not be empty"
+            },
+            "rating": {
+               "max_length" : "please select rating within range" 
             }
         }
 
